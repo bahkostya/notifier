@@ -1,0 +1,14 @@
+POST /fcm/send HTTP/1.1
+Host: fcm.googleapis.com
+Content-Type: application/json
+Authorization: key=AAAApUTC15M:APA91bHWWbim7qTE42JkSx66mVdiQAJDSgZLaqvPG_k3acMHxLVCpYZIzpr9xEjccjlPRDTpTnH-l11mot6Ey_XvCOmWP8rqg6vd92cU96h7HNV7pwZolpyNTWTIr9KbLHlYqEG91jcp
+
+{
+    "notification": {
+        "title": "Firebase",
+        "body": "Firebase is awesome",
+        "click_action": "http://localhost:3000/",
+        "icon": "http://url-to-an-icon/icon.png"
+    },
+    "to": "flll9eSuCyM:APA91bH5EWzt-3i3EdJfvbY9KtaZgwIz3ryXX-IGilhSAM3K5YjADH8QT41X7HY4Z3wzWYWUJ-1Ti1NVPQMtxH49l6Nww7HmFxh9GqC1OdgDKEDlgcZK3XGP248rrhiyY2uteWZW1m5q"
+}
